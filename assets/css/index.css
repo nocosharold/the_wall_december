@@ -135,9 +135,9 @@ body {
   width: calc(100% - 283px);
 }
 .container .banner_container {
+  background: url("../images/the_wall_banner.png") no-repeat;
   background-color: #3B3C43;
   background-size: cover;
-  background: url("../images/the_wall_banner.png") no-repeat;
   border-radius: 0 20px 20px 0;
   height: 100%;
   position: absolute;
