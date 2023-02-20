@@ -39,7 +39,7 @@ function submitSignUpForm(event){
     validateInput(sign_up_fields);
 
     if(!(document.querySelectorAll("#sign_up_form .input_error").length)){
-        window.location.href = `${ window.location.origin }/views/timeline.html`;
+        window.location.href = `${ window.location.origin }/the_wall_december/views/timeline.html`;
     }
 }
 
@@ -56,7 +56,7 @@ function submitSignInForm(event){
     validateInput(sign_in_fields);
 
     if(!(document.querySelectorAll("#sign_in_form .input_error").length)){
-        window.location.href = `${ window.location.origin }/views/timeline.html`;
+        window.location.href = `${ window.location.origin }/the_wall_december/views/timeline.html`;
     }
 }
 
